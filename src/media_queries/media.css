@@ -1,0 +1,177 @@
+
+
+
+
+
+@media screen and (max-width:1172px) {
+    .nav-list{
+        width:93%
+    }
+    .rightNav{
+        width: 37%;
+    }     
+}
+
+@media screen and (max-width:1098px){
+    .firstSection{
+        height: 105vh;
+    }
+    .section{
+        height: 575px;
+    }
+    
+    .rightNav{
+        padding: 16px 8px;
+        width: 37%;
+
+    }
+
+    .nav-list li{
+        padding:34px 27px;
+    }
+
+
+    .btn-sm{
+        padding: 3px 10px;
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width:885px) {
+    .logo{
+        width: 17%;
+    }
+    .logo-ti{
+        width: 35%;
+    }
+}
+
+
+@media screen and (min-width:2050px) {
+    .section{
+        height:600px;
+    }
+    
+}
+@media screen and (min-width:2592px) {
+    .section{
+        height:700px;
+    }
+    
+}
+@media screen and (min-width:2764px) {
+    .section{
+        height:850px;
+    }
+    
+}
+
+
+@media screen and (max-width:860px){
+    .navbar{
+        flex-direction: column;
+        height: 550px;
+        transition: all 0.5s ease-out;
+    }
+
+    .nav-list{
+        flex-direction: column;
+    }
+    .rightNav{
+        flex-direction: column;
+    }
+
+    .nav-list li{
+        padding: 30px 27px;
+    }
+
+    .burger{
+        display: block;
+    }
+    .h-nav-resp{
+        height: 60px;
+    }
+    .v-class-resp{
+        opacity:0;
+    }
+
+    .box-main{
+        flex-direction: column-reverse;
+    }
+
+
+    .section{
+        flex-direction: column-reverse;
+        max-width: 100%;
+        height: 750px;
+        margin: 28px auto ;
+    }
+    .section-explore    {
+        flex-direction: column-reverse;
+        max-width: 100%;
+        height: 750px;
+        margin: 28px auto ;
+    }
+
+    .thumbnail{
+        width: 92%;
+    }
+
+    .imgFluid{
+        width:26%;
+        margin: 12px auto;
+    }
+}
+
+@media screen and (max-width:660px) {
+    .firstSection{
+        height: 170vh;
+    }
+
+}
+
+
+@media screen and (max-width:560px){
+    .section{
+        height: 45%;
+    }
+}
+
+@media screen and (max-width:370px){
+    .firstSection{
+        height: 200vh;
+    }
+}
+
+
+@media screen and (max-width:410px) {
+    *{
+        overflow-x:hidden;
+    }
+
+    .navbar{
+        overflow-x: visible;
+    }
+
+    .form-input{
+        width: 80%;
+    }
+
+    .text-big{
+        font-size: 32px;
+
+    }
+
+    .text-small{
+        font-size: 17px;
+    }
+
+    .firstHalf{
+        width: 90%;
+    }
+
+    .firstHalf p {
+        margin:10px auto
+
+    }
+}
